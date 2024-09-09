@@ -1,0 +1,52 @@
+.tab-lable {
+       font-family: system-ui;
+    margin-right: 10px;
+    cursor: pointer;
+    color: #18191C;;
+    border-radius: 4px;
+
+}
+
+.lable-bottom {
+    border-bottom: 3px solid #FF8630;
+}
+
+.containerSliders {
+    display: flex;
+    padding: 0 10px;
+    margin-top: 6px;
+}
+
+.lables {
+    margin-left: 36px;
+    display: flex;
+}
+
+
+.contents {
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #FF8630;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.lable:hover{
+color: #fca262;
+}
+
+.wrapper_container{
+    border: solid 1px #fff;
+    height: 198px;
+    border-radius: 20px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+.containerSlider{
+    width: 100%;
+}
+
+.tab-lable:hover{
+    color: #fff;
+    transition: 0.3s;
+    transform:scale(1.03)
+  }

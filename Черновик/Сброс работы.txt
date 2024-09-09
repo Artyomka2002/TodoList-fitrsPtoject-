@@ -1,0 +1,189 @@
+
+
+
+//  todoList.filter((item) => item.todo !== newTodo.todo);
+//Добавление элемента через modal,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,.
+// class List
+// class Pagination
+//button
+//modal
+// sort переделать
+
+// / const deleteElemenst = () => {
+//     if (todoList.length < 10) {
+//         document.getElementById('list').style.display = 'none';
+//     } else {
+//         document.getElementById('list').style.display = 'flex';
+//     }
+// }
+
+// let bottomClose = () => {
+//     if (todoList === undefined || todoList.length == 0) {
+//         removeAllContainer.style.display = 'none';
+//     }
+// }
+
+// document.querySelector('.number_list').style.display = 'block';
+// removeAllContainer.style.display = 'block';
+
+// let arr_2 = todoList.filter((item, index) => {
+//     return arr.indexOf(item) === index
+// });
+// console.log(arr_2);
+// console.log(todoList)
+
+// const tags = [...document.querySelectorAll('.information-bar')];
+// const texts = new Set(tags.map(x => x.innerHTML));
+// tags.forEach(tag => {
+//   if(texts.has(tag.innerHTML)){
+//     texts.delete(tag.innerHTML);
+//   }
+//   else{
+//     tag.remove()
+//   }
+// })
+
+//     todoList.innerHTML = "";
+//     for (let i = 0; i < divs.length; i++) {
+//         if (!todoList.includes(divs[i])) {
+//             todoList.push(divs[i]);
+//         }
+//         return todoList;
+//     }
+
+// let deleteFunc = () => {
+
+// // // Получаем коллекцию всех div'ов
+// const divs = document.querySelectorAll('.oi div');
+// // Создаем новый пустой массив
+// let uniqueDivs = [];
+// // // Проходимся по каждому div'у
+// for (let i = 0; i < divs.length; i++) {
+//     // Проверяем, есть ли уже такой элемент в уникальном массиве
+//     if (!uniqueDivs.includes(divs[i])) {
+//         // Если нет, добавляем его в уникальный массив
+//         uniqueDivs.push(divs[i]);
+//     }
+// }
+// // // Очищаем родительский div и добавляем обратно уникальные div'ы
+// document.querySelector('.divs').innerHTML = "";
+
+// console.log(uniqueDivs);
+// }
+// function myFunctionFilt() {
+//     var filter, ul, li, a, i, txtValue;
+//     filter = input.value.toUpperCase();
+//     ul = document.getElementById("io");
+//     li = ul.querySelectorAll('.information-bar');
+//     // console.log(li)
+//     for (i = 0; i < li.length; i++) {
+//         delo = li[i].getElementsByClassName('delo')[0];
+//         txtValue = delo.textContent || delo.innerText;
+//         if (txtValue.toUpperCase().indexOf(filter) > -1) {
+//             // li[i].style.display = "";
+//             li[i].remove()
+//         } else {
+//             // li[i].style.display = "none";
+//             li[i].remove()
+//         }
+//     }
+// }
+
+// let deleteFunc = (nomer) => {
+//    let l = nomer.textContent
+//    document.querySelectorAll('.information-bar').forEach(f)
+// }
+//  let asdfg = function uniqueElements(arr) {
+//     arr.filter((index) => todoContainer.indexOf(querySelectorAll('.information-bar').textContent) === index.textContent).remove();
+//   }
+
+//   asdfg();
+
+// function deleteReplic()  {
+//     var  ul, li, i;
+//     ul = document.getElementById("io");
+//     li = ul.querySelectorAll('.information-bar');
+//     for (i = 0; i < ul.length; i++) {
+//         delo = li[i].getElementsByClassName('delo');
+//        if( delo.textContent || delo.innerText === i.textContent || i.innerText){
+//         li[i].remove()
+//        }
+//     }
+// }
+// function createElement(item) {
+//     let checkbox = document.createElement('input');
+//     const numberDiv = document.createElement('div');
+//     let newList = document.createElement('div');
+//     const delo = document.createElement('div');
+//     const buttonTwo = document.createElement('div');
+//     const asd = document.createElement('div');
+
+//     numberDiv.classList.add('number-div')
+//     newList.classList.add('information-bar');
+//     delo.classList.add('delo');
+//     buttonTwo.classList.add('button_two');
+
+//     delo.innerHTML = item.todo;
+//     buttonTwo.innerHTML = '&times;';
+//     asd.style.display = 'flex';
+
+//     asd.append(checkbox);
+//     asd.append(numberDiv);
+//     asd.append(delo);
+//     newList.append(asd);
+//     newList.append(buttonTwo);
+
+//     checkbox.type = 'checkbox';
+//     checkbox.id = 'chech';
+//     checkbox.name = 'checkbox-name';
+
+//     checkbox.checked = item.checked
+//     checkbox.addEventListener('change', function () {
+//         setCheck(item.id);
+//         filtTask()
+//     });
+//     buttonTwo.addEventListener('click', function () {
+//         newList.remove();
+//         deleteTask(item.id);
+//         bottomClose();
+//     });
+
+//     return newList
+
+// };
+
+// function renderList() {
+//     const todoLists = document.querySelectorAll('.information-bar');
+//     todoLists.forEach(function (todo, i) {
+//         const divNumber = todo.querySelector('.number-div');
+//         divNumber.innerHTML = i + 1 + ")";
+//     });
+// }
+
+
+// function changeTheColor() {
+//     buttonAdd.onmouseenter = function () {
+//         if (input.value.trim().length === 0) {
+//             buttonAdd.style.background = 'rgb(109 23 23)';
+//             buttonAdd.value = 'Удалить всe';
+//         }
+//         if (input.value.trim().length === 0) {
+//             const deleteElement = () => {
+//                 deletingTheWhole()
+//                 todoContainer.innerHTML = "";
+//                 buttonAdd.removeEventListener('click', deleteElement)
+//             }
+//             buttonAdd.addEventListener('click', deleteElement);
+//         }
+//         buttonAdd.onmouseleave = function () {
+//             buttonAdd.value = 'Добавить';
+//             buttonAdd.style = "button_one";
+//         }
+//     }
+// }
+// changeTheColor()
+
+// function deletingTheWhole() {
+//     todoList = [];
+//     localStorage.setItem('todoLink', JSON.stringify(todoList));
+// // }

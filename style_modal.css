@@ -1,0 +1,72 @@
+#topName {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px 20px 0px 20px;
+    color: chocolate;
+    font-size: 26px;
+ }
+ #middleName {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: chocolate;
+    font-size: 26px;
+    margin: 75px 0 0 200px;
+ }
+
+ #buttomNoButton {
+    background-color: rgb(109 23 23);
+    border: none;
+    font-size: 20px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    cursor: pointer;
+    width: 112px;
+    top: 200px;
+    right: 38px;
+    height: 55px;
+    font-family: sans-serif;
+    z-index: 1000;
+ }
+ #buttomYesButton {
+    background-color: rgb(41 113 26);
+    color: #fff;
+    border: none;
+    width: 112px;
+    font-size: 20px;
+    top: 200px;
+    font-family: sans-serif;
+    border-radius: 37px;
+    cursor: pointer;
+    height: 55px;
+    right: 20px;
+    position: absolute;
+    margin-right: 150px;
+    z-index: 1000;
+ 
+ }
+ 
+.modal-wrapper {
+    position: fixed;
+    display: flex;
+    width: 100%;
+    top: -10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .7);
+    z-index: 100;
+ }
+ .modal-window {
+    background-color: #505050;
+    height: 30vh;
+    position: fixed;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0px;
+    right: 0;
+    margin-bottom: auto;
+    height: 291px;
+    top: 170px;
+    bottom: 0;
+    width: 600px;
+ }
+ 

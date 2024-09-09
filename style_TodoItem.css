@@ -1,0 +1,30 @@
+.oi {
+    height: 100%;
+ }
+ #chech {
+    width: 16px;
+    margin-right: 10px;
+    margin-top: 4px;
+ }
+ .number-div {
+    margin-right: 4px;
+    font-size: 18px;
+    margin-top: 7px;
+ }
+ .list_bottom {
+    margin-top: 10px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 26px;
+    justify-content: flex-start;
+ }
+ .button_two:hover {
+    background-color: rgb(129, 28, 28);
+ }
+ #chech:checked~.delo {
+    text-decoration: line-through;
+    text-decoration-color: #ffffff;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+ }

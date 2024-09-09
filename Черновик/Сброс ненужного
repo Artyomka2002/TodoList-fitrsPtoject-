@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <div class="modal_delete_sp " id="modalSP">
+        <h1>Подтвердите действие..</h1>
+        <div class="modal_delete_sp_div">
+            <p>Уверены, что хотите удалить?</p>
+        </div>
+        <div class="modal_delete_button">
+            <button id="yesButton" type="">Да</button>
+            <button id="noButton" type="">Нет</button>
+        </div>
+    </div>
+</body>
+</html>
+
+<style>
+
+.modal_delete_sp {
+   display: none;
+   background-color: #505050;
+   height: 30vh;
+   position: fixed;
+   margin-left: auto;
+   margin-right: auto;
+   left: 0px;
+   right: 0;
+   margin-bottom: auto;
+   height: 291px;
+   top: 170px;
+   bottom: 0;
+   width: 600px;
+}
+
+.modal_delete_sp h1 {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   margin: 10px 20px 0px 20px;
+   color: chocolate;
+   font-size: 26px;
+}
+
+.modal_delete_sp_div {
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color: chocolate;
+   font-size: 26px;
+   margin: 75px 0 0 200px;
+} */
+
+.modal_delete_button button {
+   width: 112px;
+   height: 46px;
+   border: none;
+   font-size: 20px;
+}
+
+.modal_delete_button {
+   display: flex;
+   justify-content: space-around;
+   margin: 52px 0 0 256px;
+
+} 
+
+ #yesButton {
+   background-color: rgb(41 113 26);
+   color: #fff;
+   border: none;
+   position: absolute;
+   font-family: sans-serif;
+   border-radius: 20px;
+   cursor: pointer;
+   margin-right: 150px;
+} 
+
+ #noButton {
+   background-color: rgb(109 23 23);
+   border: none;
+   border-radius: 20px;
+   color: rgb(255, 255, 255);
+   position: absolute;
+   cursor: pointer;
+   margin-right: -150px;
+   font-family: sans-serif;
+} 
+
+ #yesButton:hover {
+   background-color: rgb(55 132 39);
+} 
+
+ #noButton:hover {
+   background-color: rgb(129, 28, 28);
+} 
+
+ .Modal-Display{
+background-color: #f0ebeb;
+ width: 200px;
+ height: 200px;
+} 
+
+ /* .modal-wrapper {
+  
+}  */
+
+
+ .overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+ }
+
+
+ .modal-window {
+    width:300px; 
+    height:500px;
+     z-index:2; }
+</style>
+
+<!-- buttonTwo.addEventListener('click', () => {
+    // this.onClick()
+    // blockRender.remove() 
+    deleteTaskTest(this.item);
+}); -->
+<!-- // this.onClick = onClick.bind(this); -->
+
+
+<!-- 
+// let deleteToModal = document.getElementById('test');
+
+// deleteToModal.addEventListener('click', function () {
+//     const todo = new ModalItem(); 
+//     const renderModal = todo.render(); 
+//     document.body.append(renderModal); 
+//     const unPacking = document.body.querySelector('.modal-window')
+//     unPacking.append(addTotalName())
+// });
+
+
+
+
+
+
+
+// const onClick = () => {
+//         // deleteTodoItemModal.style.display = 'none';
+//             // deleteTodoItemModal.style.display = 'block';
+//             document.body.querySelector('.modal-wrapper').addEventListener('click', function () {
+//                 // deleteTodoItemModal.style.display = 'none';
+//                 document.body.querySelector('.modal-wrapper').remove();
+//                 deleteTask(item.id);
+//             });
+//             // closeDeleteTodoItemModal.addEventListener('click', function () {
+//             //     deleteTodoItemModal.style.display = 'none';
+//             // });
+// }
+// onClick()
+
+
+// class Modal {
+//     constructor(modalEl, backdropEl, containerEl) {
+//       this.modalEl = modalEl;
+//       this.backdropEl = backdropEl;
+//       this.containerEl = containerEl;
+  
+//       this.init();
+//     }
+  
+//     init() {
+//       // Отслеживание закрытия при нажатии за пределами модального окна
+//       document.addEventListener('click', (event) => {
+//         if (this.isOutsideClicked(event)) {
+//           this.close();
+//         }
+//       });
+  
+//       // Закрытие при нажатии на кнопку закрытия
+//       this.modalEl.querySelector('.close').addEventListener('click', () => {
+//         this.close();
+//       });
+//     }
+  
+//     // Проверка, был ли клик за пределами модального окна или контейнера
+//     isOutsideClicked(event) {
+//       return this.modalEl && !this.modalEl.contains(event.target) && this.containerEl && !this.containerEl.contains(event.target);
+//     }
+   -->
